@@ -363,6 +363,7 @@
 "Assets/Scripts/SceneReloading.cs"
 "Assets/Scripts/TaskManager.cs"
 "Assets/Scripts/TextMove.cs"
+"Assets/Scripts/VictorySalute.cs"
 -langversion:9.0
 
 /deterministic

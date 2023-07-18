@@ -12,8 +12,8 @@ GameObject:
   - component: {fileID: 7964419476243088462}
   - component: {fileID: 5288275004297638020}
   - component: {fileID: 6819065256386391043}
-  - component: {fileID: 6819065256386391042}
   - component: {fileID: 6819065256386391048}
+  - component: {fileID: -815002682414379977}
   m_Layer: 3
   m_Name: Banana
   m_TagString: Banana
@@ -102,20 +102,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!64 &6819065256386391042
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5936666151245533521}
-  m_Material: {fileID: 13400000, guid: 0e428a9d64c00434fbe32fd047d7caaa, type: 2}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 1
-  m_CookingOptions: -1
-  m_Mesh: {fileID: 3216447080179446721, guid: fa1374891d49b7243b6a2b8a1e25b7c4, type: 3}
 --- !u!114 &6819065256386391048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -128,3 +114,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f56b66b112affa4c88203c7496c22f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &-815002682414379977
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5936666151245533521}
+  m_Material: {fileID: 13400000, guid: 0e428a9d64c00434fbe32fd047d7caaa, type: 2}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.7728426, y: 0.8, z: 0.5}
+  m_Center: {x: -0.059577644, y: 0.07839845, z: 0.000000022351742}

@@ -25,6 +25,6 @@ public class FruitSpawn : MonoBehaviour
     {
         int randomFruit = Random.Range(0, _fruits.Length);
 
-        Instantiate(_fruits[randomFruit], transform.position, Quaternion.identity);
+        Instantiate(_fruits[randomFruit], transform.position, Quaternion.Euler(75f,0f,0f));
     }
 }

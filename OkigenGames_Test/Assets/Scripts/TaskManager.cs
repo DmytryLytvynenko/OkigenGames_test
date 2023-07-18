@@ -52,7 +52,7 @@ public class TaskManager : MonoBehaviour
         }
         else
         {
-            _taskText.text = $"Collect {_FruitsForTask} {_neededFruitType}s";
+            _taskText.text = $"Collect {_FruitsForTask} {_neededFruitType}";
         }
     }
 }

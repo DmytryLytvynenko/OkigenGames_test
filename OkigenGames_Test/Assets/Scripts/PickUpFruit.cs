@@ -17,6 +17,7 @@ public class PickUpFruit : MonoBehaviour
     [SerializeField] private GameObject _pickUpEffect;
     [SerializeField] private GameObject _pickUpText;
     [SerializeField] private GameObject _winScreen;
+    [SerializeField] private GameObject _victorySalute;
     [SerializeField] private GameObject _task;
     [SerializeField] private LayerMask _layersToHit;
     [SerializeField] private Transform _playersHand;
@@ -111,6 +112,7 @@ public class PickUpFruit : MonoBehaviour
 
             yield return new WaitForSeconds(1f);
 
+            _victorySalute.SetActive(true);
             transform.position = new Vector3(transform.position.x, transform.position.y, 2.1f);
             _basket.parent = null;
             _basket.position = new Vector3(3.2f, 0.2f, 1.3f);
